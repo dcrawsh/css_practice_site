@@ -1,17 +1,32 @@
-body {
-    font-family: 'Montserrat', sans-serif;
+#assignment-instructions {
+    color: lightcoral;
+    font-family: fantasy;
 }
 
-#product-overview {
-    background: red;
+
+
+.second-list-item code {
+    color: green;
 }
 
-#product-overview h1 {
+code {
+    font-family: monospace;
+    color:red;
+}
+
+body{
+    color: teal;
+}
+
+ol > li {
+    background: black;
     color: white;
-    font-family: 'Anton', sans-serif;
 }
 
-.section-title {
-    color: #2ddf5c;
+li + li {
+    color:white;
+    background:black;
 }
+
+
 
