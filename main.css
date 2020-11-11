@@ -11,9 +11,7 @@ body {
     background: #ff1b68;
     width: 100%;
     height: 528px;
-    padding: 10px;
-    
-    
+    padding: 10px;  
 }
 
 .section-title {
@@ -33,20 +31,45 @@ body {
 
 .main-header > div {
     display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 54px)
+    width: calc(100% - 80px);
+    vertical-align: middle;
 }
 
 .main-nav__items {
-    margin:0;
     padding: 0;
     list-style: none;
 
 }
 .main-nav__item {
     display: inline-block;
+    margin: 0px 16px;
+    text-decoration: none;
 }
+.main-nav__item > a {
+    text-decoration: none;
+    color: #0e4f1f;
+}
+
+.main-nav__item > a:hover {
+    text-decoration: none;
+    color: white;
+}
+.main-nav__item > a:active {
+    text-decoration: none;
+    color: white;
+}
+
+
