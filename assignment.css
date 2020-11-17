@@ -1,0 +1,24 @@
+div {
+    border: black solid 2px;
+    padding: 10px 20px 30px 40px;
+    display: inline-block;
+    height: 50%;
+    width: calc(50% - 2px);
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.box-one{
+    
+}
+
+
+
+div:last-of-type:hover{
+    background:black;
+    color: white;
+}
+
+html, body{
+    height: 100%
+}
