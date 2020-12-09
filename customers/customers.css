@@ -14,9 +14,11 @@
 
   .testimonial__image-container {
     width: 65%;
+    max-width: ;
     display: inline-block;
     vertical-align: middle;
     box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.3);
+    max-width: 580px;
   }
 
   .testimonial__image {
