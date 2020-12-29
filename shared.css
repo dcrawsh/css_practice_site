@@ -202,3 +202,11 @@ body {
     display: block;
     margin: 0.6rem 0;
   }
+
+  .open{
+      display: block !important;
+  }
+
+  .close{
+      display: none !important;
+  }
