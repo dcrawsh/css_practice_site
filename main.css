@@ -43,11 +43,7 @@
   }
 }
 
-/* .plan__list {
-  width: 100%;
 
-  text-align: center;
-} */
 
 .plan {
   background: #d5ffdc;
@@ -96,6 +92,21 @@
 
 .plan__feature {
   margin: 0.5rem 0;
+}
+
+@media (min-width: 640px) {
+  .plan {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+  }
+  .plan__list {
+    width: 100%;
+    text-align: center;
+  }
+  .plan--highlighted {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
 }
 
 #key-features {
