@@ -99,6 +99,8 @@
     display: inline-block;
     width: 30%;
     vertical-align: middle;
+    min-width: 205px;
+    max-width: 350px;
   }
   .plan__list {
     width: 100%;
