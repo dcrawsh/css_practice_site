@@ -31,6 +31,7 @@ body {
 .main-header > div {
   display: inline-block;
   vertical-align: middle;
+  height: 47.93px;
 }
 
 .toggle-button {
@@ -41,6 +42,7 @@ body {
   padding-top: 0;
   padding-bottom: 0;
   vertical-align: middle;
+  display:inline-block;
 }
 
 .toggle-button:focus {
@@ -79,9 +81,7 @@ body {
 }
 
 .main-nav__items {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  display: none;
 }
 
 .main-nav__item {
@@ -199,4 +199,19 @@ body {
 
 .open {
     display: block !important;
+}
+
+@media (min-width: 40rem) {
+  .toggle-button {
+  display: none;
+  }
+  .main-header__brand{
+  height: 2.5rem;
+  }
+  .main-nav__items{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline;
+  }
 }
