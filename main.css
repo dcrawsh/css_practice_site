@@ -31,7 +31,7 @@
   font-size: 1.6rem;
 }
 
-@media (min-width: 640px) and (minimum-height: 60rem){
+@media (min-width: 640px) and (minimum-height: 40rem){
   #product-overview{
     height: 40vh;
     background-position: 50% 25%;
